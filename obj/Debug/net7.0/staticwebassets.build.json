@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "M60ffFk9cITRlV/eQQS/vh1kkLkws9SHyxlFAs30jVA=",
+  "Source": "dojosurvey",
+  "BasePath": "_content/dojosurvey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "dojosurvey\\wwwroot",
+      "Source": "dojosurvey",
+      "ContentRoot": "C:\\Users\\pablo\\Desktop\\bootcamp coding dojo\\Fundamentos-de-la-web-SONDA-Semtiembre-2023\\Semana 6\\Día 4\\dojosurvey\\wwwroot\\",
+      "BasePath": "_content/dojosurvey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\pablo\\Desktop\\bootcamp coding dojo\\Fundamentos-de-la-web-SONDA-Semtiembre-2023\\Semana 6\\Día 4\\dojosurvey\\wwwroot\\css\\style.css",
+      "SourceId": "dojosurvey",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pablo\\Desktop\\bootcamp coding dojo\\Fundamentos-de-la-web-SONDA-Semtiembre-2023\\Semana 6\\Día 4\\dojosurvey\\wwwroot\\",
+      "BasePath": "_content/dojosurvey",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

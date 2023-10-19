@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="containerForm">
+    <form action="process" method="post">
+        <div><label for="name">Your Name: </label>
+        <input type="text" name="name" id="name" /></div>
+        <div> <label for="location">Dojo Location</label>
+        <input type="text" name="location" id="location">
+        </div>
+        <div><label for="favorite">Favorite Language</label>
+        <select name="favorite" id="favorite">
+            <option value="c#">C#</option>
+            <option value="java">Java</option>
+            <option value="javascript">Javascript</option>
+        </select></div>
+        
+        <div>
+        <label for="comment">Comment (optional)</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div><button type="submit" class="button">Submit</button></div>
+    </form>
+    </div>
+    </div>
+
+</body>
+</html>
