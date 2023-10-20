@@ -12,15 +12,10 @@ public class DojoController : Controller   // Remember inheritance?
     }
 
    [HttpPost("process")]
-    public IActionResult Process(string name,string location,string favorite, string comment ){
-var AnonObject = new {
-    Name = name,
-	Location = location,
-    Favorite = favorite,
-    Comment = comment
-    };
+    public IActionResult Process(Survey surv ){
 
-    return View("Result", AnonObject);
+
+    return View("Result", surv);
     }
 }
 
